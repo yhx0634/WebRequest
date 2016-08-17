@@ -50,12 +50,12 @@ namespace WebRequestandTrack
 
                         //Provide your email id with your password.
                         //Enter the app-specfic password if two-step authentication is enabled.
-                        mailServer.Credentials = new System.Net.NetworkCredential("youhx@outlook.com", "Yhx3904755");
+                        mailServer.Credentials = new System.Net.NetworkCredential("sender@email.com", "password");
 
                         //Senders email.
-                        string from = "youhx@outlook.com";
+                        string from = "sender@email.com";
                         //Receiver email
-                        string to = "yhx0634@gmail.com";
+                        string to = "eceiver@email.com";
 
                         MailMessage msg = new MailMessage(from, to);
 
